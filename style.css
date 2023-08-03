@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img{
+    display: inline-block;
+    margin-right: 40px;
+    width: 100px;
+    height: auto;
+    flex: 1;
+    color: white;
+}
+
+.headtext {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    flex: 2;
+    color: gainsboro;
+    
+}
+
+#featured-games {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+
+}
+
+
+body {
+    background-image: url(Images/3894151.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.games {
+    width: 23%;
+    box-shadow: 0 0 4px 3px rgb(189, 253, 152);
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+
+}
+.images {
+    width: 100%;
+}
+.title {
+    font-size: 1.3rem;
+    color: aquamarine;
+}
+
+.description {
+    color: white;
+}
+
+.category,.developer,.date {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: left;
+}
+.link {
+    font-weight: bold;
+    text-transform: lowercase;
+    margin: 1em;
+    font-size: 1rem;
+    color: lightgreen;
+}
+
+.search {
+    padding: 8px;
+}
+
+#searchOption, #searchInput, #searchButton {
+    background-color: gainsboro;
+    padding: 8px 16px;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur;
+    opacity: 80%;
+    margin-right: 10px;
+
+}

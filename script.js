@@ -16,6 +16,7 @@ fetch('https://www.freetogame.com/api/games')
         <img src=${values.thumbnail} alt="img" class="images">
         <p class="description">${values.short_description}</p>
         <p class="category">Genre: ${values.genre}</p>
+        <p class="publisher">Pub: ${values.publisher}</p>
         <p class="developer">Dev: ${values.developer}</p>
         <p class="date">Release Date: ${values.release_date}</p>
         <p class="link">${values.freetogame_profile_url}</p>

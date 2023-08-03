@@ -64,11 +64,11 @@ body {
     color: white;
 }
 
-.category,.developer,.date {
+.category,.developer,.date, .publisher{
     font-weight: bold;
     text-transform: capitalize;
     margin: 1em;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: whitesmoke;
     text-align: left;
 }
